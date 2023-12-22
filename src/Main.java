@@ -1,5 +1,3 @@
-import java.util.Scanner;
-import java.util.ArrayList;
 public class Main {
     public static int positiveNumberAdd(int[] arr){
         int varSum = 0;
@@ -13,7 +11,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = {22,55,-6,55};
-        System.out.println(positiveNumberAdd(arr1));
+        int[] arr = {22,55,-6,55};
+        System.out.println(positiveNumberAdd(arr));
     }
 }
