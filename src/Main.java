@@ -1,14 +1,19 @@
+import java.util.Scanner;
+import java.util.ArrayList;
 public class Main {
-    public static void main(String[] args) {
-        int[] value = {2,4,-3,9};
+    public static int positiveNumberAdd(int[] arr){
         int varSum = 0;
-        for(int var : value)
+        for(int var : arr)
         {
             if(var > 0)
                 varSum += var;
         }
 
-        System.out.println(varSum);
+        return varSum;
+    }
 
+    public static void main(String[] args) {
+        int[] arr1 = {22,55,-6,55};
+        System.out.println(positiveNumberAdd(arr1));
     }
 }
